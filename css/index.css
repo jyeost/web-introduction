@@ -1,0 +1,126 @@
+* {
+       font-family: '맑은 고딕', Arial, "MS Trebuchet", sans-serif;
+       color: rgb(59, 56, 56);
+    }
+
+    html{
+        background: linear-gradient(to top, lightGreen, yellow);
+    }
+
+    header{
+        width: 60%;
+        margin: 60px 20% 70px 20%;
+        text-align: center;
+    }
+
+    footer{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    ul{
+        padding-left:  15px;
+        line-height: 35px;
+    }
+
+    section{
+        width: 70%;
+        margin: 15px auto;
+    }
+
+    section#btn{
+        text-align: center;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    label:hover, input:hover{
+        cursor: pointer;
+    }
+
+    div.box_idx{
+        border: solid 2px rgb(59, 56, 56);
+        border-radius: 0.5rem;
+        padding: 1% 8% 5% 5%;
+    }
+
+    label{
+        display: block;
+        margin: 10px;
+    }
+
+    img.box{
+        border: solid 2px rgb(59, 56, 56);
+        border-radius: 0.5rem;
+        width:200px;
+    }
+
+    img.box:hover{
+        cursor:pointer;
+        brightness(50%);
+    }
+
+    .images{
+        display: inline-flex;
+    }
+
+    button{
+        width: 150px;
+        height: 40px;
+        font-size: 13pt;
+        font-weight: bold;
+        border: solid 2px rgb(59, 56, 56);
+        border-radius: 0.5rem;
+        background-color: lightGreen;
+        margin : 10px 45%;
+    }
+
+    div#div_flex {
+
+		display : flex;
+		position: fixed;
+		top: 600px;
+		left: 60px;
+
+		width: 80px;
+		height: 80px;
+		background-color: #0cff23;
+		/* text-align: center; 이거 둘 다 필요없다잉 */
+		/* vertical-align: middle; 앵커 테그에 마진 주면 끗이여 */
+
+		border: solid 2px rgb(59, 56, 56);
+		border-radius: 50%;
+
+        font-size: 12pt;
+        font-weight: bold;
+
+	}
+
+	div#div_flex > a {
+        text-decoration: none;
+        margin:auto;
+
+    }
+
+    div#div_flex > a:link,
+    div#div_flex > a:visited,
+    div#div_flex > a:active  {
+        color:rgb(59, 56, 56);
+
+    }
+
+	.ml {
+	    margin-left: 30px;
+	}
+
+	input#name {
+	    border: solid 2px rgb(59, 56, 56);
+        border-radius: 0.3rem;
+        height : 30px;
+        weight : 300px;
+        font-size : 13pt;
+        margin-bottom : 15px;
+        padding-left : 10px;
+	}
